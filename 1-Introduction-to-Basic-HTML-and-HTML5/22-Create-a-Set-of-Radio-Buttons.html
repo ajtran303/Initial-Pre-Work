@@ -1,0 +1,44 @@
+<!-- Radio buttons are a type of input can be used for questions that have multiple options but only require one selection, like a multiple choice quiz.
+
+When radio buttons are related, they need to have the same name attribute to create a radio button group. That way, selecting one answer will automatically deselect another answer so that only one can be chosen at a time.
+
+Each radio button can be nested in its own label element to automatically associate the input with the surrounding label elements.
+
+Best practice in example:
+
+<label for="indoor">
+  <input id="indoor" type="radio" name="indoor-outdoor">Indoor
+</label>
+
+"indoor" is a shared value between the for and id attributes of the label and input elements, respectively. This helps assistive technologies understand the linked relationship between the elements to increase accessibility.
+-->
+
+<h2>CatPhotoApp</h2>
+<main>
+  <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+  <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+
+  <p>Things cats love:</p>
+  <ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+  </ul>
+  <p>Top 3 things cats hate:</p>
+  <ol>
+    <li>flea treatment</li>
+    <li>thunder</li>
+    <li>other cats</li>
+  </ol>
+  <form action="/submit-cat-photo">
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+    <label for="indoor">
+      <input id="indoor" type="radio" name="indoor-outdoor">Indoor 
+    </label>
+    <label for="outdoor">
+      <input id="outdoor" type="radio" name="indoor-outdoor">Outdoor
+    </label>
+  </form>
+</main>
