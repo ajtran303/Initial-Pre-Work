@@ -1,0 +1,40 @@
+/* When HTML elements are displayed on a webpage, there are three properties that dictate how much space is between each element: margin, padding, and border.
+
+The padding property controls how much space is between the element's content and its border. Consider an addressed letter folded in an envelope with cellophane windows. The addresses are the content, and the space between the addresses and the edges of the cellophane border is the padding. */
+
+<style>
+  .injected-text {
+    margin-bottom: -25px;
+    text-align: center;
+  }
+
+  .box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+  }
+
+  .yellow-box {
+    background-color: yellow;
+    padding: 10px;
+  }
+
+  .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding: 20px;
+  }
+
+  .blue-box {
+    background-color: blue;
+    color: #fff;
+    padding: 20px;
+  }
+</style>
+<h5 class="injected-text">margin</h5>
+
+<div class="box yellow-box">
+  <h5 class="box red-box">padding</h5>
+  <h5 class="box blue-box">padding</h5>
+</div>
