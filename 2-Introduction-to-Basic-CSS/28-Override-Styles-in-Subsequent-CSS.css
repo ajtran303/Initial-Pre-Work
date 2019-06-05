@@ -1,0 +1,16 @@
+/* In the order of class declarations in the <style> section, the second declaration takes precedent over the first. A browser will use the CSS declaration that comes last, the bottom-most declaration. */
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text { /*precedence*/
+    color: blue;
+  }
+  </style>
+<h1 class="blue-text pink-text">Hello World!</h1>

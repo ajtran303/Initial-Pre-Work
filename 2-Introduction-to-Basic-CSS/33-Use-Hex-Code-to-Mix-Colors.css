@@ -1,0 +1,24 @@
+/* From red, green, and blue, there are over 16 million colors that can be coded. 0 represents absense of color, F is the maximum brightness. */
+
+<style>
+  .red-text {
+    color: #FF0000;
+  }
+  .green-text {
+    color: #00FF00;
+  }
+  .dodger-blue-text {
+    color: #1E90FF;
+  }
+  .orange-text {
+    color: #FFA500;
+  }
+</style>
+
+<h1 class="red-text">I am red!</h1>
+
+<h1 class="green-text">I am green!</h1>
+
+<h1 class="dodger-blue-text">I am dodger blue!</h1>
+
+<h1 class="orange-text">I am orange!</h1>

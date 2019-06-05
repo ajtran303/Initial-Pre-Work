@@ -1,0 +1,14 @@
+/* Some browsers, like IE, do not support CSS Variables and will ignore them. Declare a more widely supported value before a variable declaration to for more browser compatability. */
+
+<style>
+  :root {
+    --red-color: red;
+  }
+  .red-box {
+    background: red; /* property for older browsers*/
+    background: var(--red-color);
+    height: 200px;
+    width:200px;
+  }
+</style>
+<div class="red-box"></div>

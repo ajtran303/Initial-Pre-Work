@@ -1,0 +1,7 @@
+/* All HTML pages have a body element. The following code will turn a blank webpage black. */
+
+<style>
+body {
+    background-color:black;
+}
+</style>

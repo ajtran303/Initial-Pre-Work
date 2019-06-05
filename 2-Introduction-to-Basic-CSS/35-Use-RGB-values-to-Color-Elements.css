@@ -1,0 +1,7 @@
+/* Colors in CSS can also be written with RGB values. Black is rgb(0, 0, 0). White is rgb(255, 255, 255). 0 through 255 controls brightness of a color. 255 because of base 16 digits of hexadecimal. F times F in base 16 equals 255 in base 10. */
+
+<style>
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+</style>

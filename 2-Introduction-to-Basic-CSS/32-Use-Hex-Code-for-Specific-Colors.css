@@ -1,0 +1,9 @@
+/* Colors in CSS can be represented by their name or their hexadecimal code / hex code. Hex are base 16 numbers: 0 through 9 for zero through nine and A through F for ten through fifteen. One hex digit has 16 total possible values.
+
+CSS RGB Color system uses 6 hex digits to represent colors. There are 2 hex digits for each Red, Green, and Blue compenents. #000000 is black, #FFFFFF is white. */
+
+<style>
+  body {
+    background-color: #000000;
+  }
+</style>

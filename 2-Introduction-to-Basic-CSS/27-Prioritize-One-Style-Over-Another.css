@@ -1,0 +1,13 @@
+/* Body element CSS properties have a low specificity and will be overridden by another CSS Class. */
+
+<style>
+  body {
+    background-color: black;
+    font-family: monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink; /*Overrides green color*/
+  }
+</style>
+<h1 class=pink-text>Hello World!</h1>
