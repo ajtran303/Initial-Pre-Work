@@ -1,0 +1,27 @@
+// This program will translate golf scores into golf-lingo. The parameters for the golfScore function are par and strokes.
+
+// I used JS Tutor to visualize and debug my code at http://pythontutor.com/javascript.html
+
+var names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
+function golfScore(par, strokes) {
+  // Only change code below this line
+  if (strokes == 1) {
+    return names[0];
+  } else if (strokes <= par -2) {
+    return names[1];
+  } else if (strokes == par -1) {
+    return names[2];
+  } else if (strokes == par) {
+    return names[3];
+  } else if (strokes == par +1) {
+    return names[4];
+  } else if (strokes == par +2) {
+    return names[5];
+  } else {
+    return names[6];
+  }
+  // Only change code above this line
+}
+
+// Change these values to test
+console.log(golfScore(5, 2))
