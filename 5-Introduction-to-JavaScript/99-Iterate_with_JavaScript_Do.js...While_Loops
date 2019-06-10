@@ -1,0 +1,17 @@
+// A do...while loop will run code inside of a loop at least once because it runs the code and then checks for the condition.
+
+// A for loop checks for the condition before running the code.
+
+// Setup
+
+var myArray = [];
+var i = 10;
+
+// Only change code below this line.
+do {
+  myArray.push(i);
+  i++;
+} while (i < 10);
+
+console.log((myArray));
+console.log((i));
