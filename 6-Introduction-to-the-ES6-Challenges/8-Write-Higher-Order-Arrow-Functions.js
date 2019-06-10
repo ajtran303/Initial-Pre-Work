@@ -12,13 +12,15 @@
 
 // The filter method creates a new array that uses elements that meet the conditions specified in the function passed into it.
 
+// arr.filter((p) => p > 0 && p % 1 === 0);
+
+// Return p when it is a value greater than zero and when its remainder is strictly equal to zero when divided by one. Only whole numbers will yield no remainder.
+
+// arr.filter(p...).map((p) => p*p);
+
 // The map method creates a new array. The contents are from a function that is passed into it.
 
-// (p) => p > 0 && p % 1 === 0
-
-// return p when it is a value greater than zero and when its remainder is strictly equal to zero when divided by one. Only whole numbers will yield no remainder.
-
-// (p) => p*p) return p as p squared.
+// (p) => p*p) This function returns p as p squared.
 
 
 const realNumberArray = [4, 5.6, -9.8, 3.14, 42, 6, 8.34, -2];
