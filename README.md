@@ -24,7 +24,7 @@ When the client receives the file, it is displayed in the browser.
 
 ## What code is rendered in the browser?
 
-The browser interprets and displays from an HTML File. It contains HTML, CSS, and JavaScript.
+The browser interprets and displays from an HTML File, containing code from HTML, CSS, and JavaScript.
 
 ## What is the server-side code’s main function?
 
@@ -56,7 +56,7 @@ At any given time, the server-side code is available to as many clients that nee
 
 The server code can determine different users from each other by using sessions information stored in cookies.
 
-Additionally, each client might only have some access to certain part of what is on the server, for example, limiting profile views on social media.
+Additionally, each client might only have some access to certain parts of what is on the server, for example, limiting profile views on social media.
 
 There might be only one server or many depending on how much code there is.
 
@@ -64,4 +64,6 @@ If a server is offline, the code will not be available during that time, but it 
 
 ## How many instances of the databases connected to the server application are created?
 
-There are as many databases connected to the server as needed. There is at least one instance connected, because the database stores data.
+I think there at least one instance connected because the database is where the data is stored for the back-end code to work on.
+
+There could be as many databases as needed, depending on how much data there is and how it is organized.
