@@ -44,11 +44,11 @@ It can also refer to the "environment," in which the program's code is executed.
 
 I think that this question is asking, "When the client gets an HTML file from a server, how many times is that HTML file rendered in the web browser?"
 
-Once instance of client-side assets are created when a webpage is displayed for each client. HTML contains content that is formatted and styled by CSS and made interactive for the user with JavaScript. Additional assets can include media like images, or additional browser add-ons like extensions.
+Once instance of client-side assets are created when a webpage is displayed for each client. HTML contains content that is formatted and styled by CSS and made interactive for the user with JavaScript. Additional assets can include media, like images or additional browser add-ons, like extensions.
 
-Some of these assets can be stored locally on the hard drive in a cache, so that it can be loaded faster or offline.
+Some of these assets can be stored locally on the hard drive in a cache to be loaded faster or offline.
 
-Every time a client requests a webpage, it will get the most updated version, so the cache will be updated as well with the latest version of its files.
+Every time a client requests a webpage it will get the most updated version. The cache will be updated as well with the latest version of its files.
 
 ## How many instances of the server-side code are available at any given time?
 
@@ -60,10 +60,10 @@ Additionally, each client might only have some access to certain parts of what i
 
 There might be only one server or many depending on how much code there is.
 
-If a server is offline, the code will not be available during that time, but it will still exist.
+If a server is offline, the code will not be available during that time but it will still exist.
 
 ## How many instances of the databases connected to the server application are created?
 
-I think there at least one instance connected because the database is where the data is stored for the back-end code to work on.
+I think there is at least one instance connected because the database is where the data is stored for the back-end code to work on.
 
-There could be as many databases as needed, depending on how much data there is and how it is organized.
+There could be as many databases as needed depending on how much data there is and how it is organized.
